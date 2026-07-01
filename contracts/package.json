@@ -1,0 +1,15 @@
+{
+  "name": "kait-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Compile and deploy scripts for KaitGateway.sol",
+  "scripts": {
+    "compile": "node scripts/compile.js",
+    "deploy": "node scripts/deploy.js"
+  },
+  "dependencies": {
+    "solc": "0.8.20",
+    "viem": "^2.21.0",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "@kait/cli",
+  "version": "1.0.0",
+  "description": "Deploy and manage pay-per-call APIs on KAIT, the decentralized API monetization gateway on Base.",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "kait": "bin/kait.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "kait",
+    "base",
+    "web3",
+    "api",
+    "monetization",
+    "usdc",
+    "cli",
+    "gateway"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xward/Kait-Web"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "viem": "^2.21.0"
+  }
+}
